@@ -50,7 +50,7 @@ PROPERTY_TYPE = "value-add"  # DEAL-SPECIFIC: "value-add" or "stabilized"
 # Add/remove agents as needed per deal
 COVER_AGENTS = [  # DEAL-SPECIFIC
     {"name": "Glen Scher", "title": "SMDI", "img_key": "glen"},
-    {"name": "Filip Niculete", "title": "SVPI", "img_key": "filip"},
+    {"name": "Filip Niculete", "title": "SMDI", "img_key": "filip"},
     {"name": "Morgan Wetmore", "title": "Associate", "img_key": "team_morgan"},
 ]
 FOOTER_AGENTS = [  # DEAL-SPECIFIC
@@ -64,7 +64,7 @@ FOOTER_AGENTS = [  # DEAL-SPECIFIC
     },
     {
         "name": "Filip Niculete",
-        "title": "Senior Vice President Investments",
+        "title": "Senior Managing Director Investments",
         "phone": "(818) 212-2812",
         "email": "Filip.Niculete@marcusmillichap.com",
         "license": "01996429",
@@ -388,11 +388,11 @@ RENT_ROLL = [
 # - tier: 1 (primary), 2 (supporting), 3 (reference) — from COMP_ANALYSIS_PROTOCOL.md
 # - laaa: True if Glen/Filip/LAAA Team sold this comp (gets gold badge in table)
 SALE_COMPS = [
-    {"num": 1, "addr": "14622 Gilmore St, Van Nuys", "units": 6, "yr": 2009, "sf": 5400, "price": 2050000, "ppu": 341667, "psf": 380, "cap": 5.39, "grm": 12.10, "date": "05/2025", "dom": 45, "notes": "Closest vintage match", "tier": 1, "laaa": False},
-    {"num": 2, "addr": "11218 Oxnard St, N Hollywood", "units": 6, "yr": 1985, "sf": 4800, "price": 2000000, "ppu": 333333, "psf": 417, "cap": 5.80, "grm": 11.73, "date": "09/2025", "dom": 60, "notes": "Remodeled, closest location", "tier": 1, "laaa": False},
-    {"num": 3, "addr": "14243 Victory Blvd, Van Nuys", "units": 5, "yr": 2022, "sf": 5200, "price": 2665000, "ppu": 533000, "psf": 513, "cap": 5.16, "grm": 13.80, "date": "10/2024", "dom": 90, "notes": "New construction premium", "tier": 2, "laaa": False},
-    {"num": 4, "addr": "14121 Friar St, Van Nuys", "units": 7, "yr": 1998, "sf": 5600, "price": 2050000, "ppu": 292857, "psf": 366, "cap": 6.33, "grm": 11.30, "date": "12/2025", "dom": 120, "notes": "Motivated seller", "tier": 2, "laaa": False},
-    {"num": 5, "addr": "8425 Glenoaks Blvd, Sun Valley", "units": 8, "yr": 2003, "sf": 6400, "price": 1950000, "ppu": 243750, "psf": 305, "cap": 4.98, "grm": 12.42, "date": "08/2025", "dom": 75, "notes": "Mixed RSO", "tier": 2, "laaa": False},
+    {"num": 1, "addr": "14622 Gilmore St, Van Nuys", "units": 6, "yr": 2009, "sf": 7770, "price": 2050000, "ppu": 341667, "psf": 264, "cap": 5.39, "grm": 12.10, "date": "05/2025", "dom": 8, "notes": "Closest vintage match", "tier": 1, "laaa": False},
+    {"num": 2, "addr": "11218 Oxnard St, N Hollywood", "units": 6, "yr": 1985, "sf": 4152, "price": 2000000, "ppu": 333333, "psf": 482, "cap": 5.80, "grm": 11.73, "date": "09/2025", "dom": 58, "notes": "Remodeled, closest location", "tier": 1, "laaa": False},
+    {"num": 3, "addr": "14243 Victory Blvd, Van Nuys", "units": 5, "yr": 2022, "sf": 5888, "price": 2665000, "ppu": 533000, "psf": 453, "cap": 5.16, "grm": 13.80, "date": "10/2024", "dom": 17, "notes": "New construction premium", "tier": 2, "laaa": False},
+    {"num": 4, "addr": "14121 Friar St, Van Nuys", "units": 7, "yr": 1998, "sf": 6526, "price": 2050000, "ppu": 292857, "psf": 314, "cap": 6.33, "grm": 11.30, "date": "12/2025", "dom": 120, "notes": "Motivated seller", "tier": 2, "laaa": False},
+    {"num": 5, "addr": "8425 Glenoaks Blvd, Sun Valley", "units": 8, "yr": 2003, "sf": 6508, "price": 1950000, "ppu": 243750, "psf": 300, "cap": 4.98, "grm": 12.42, "date": "08/2025", "dom": 23, "notes": "Mixed RSO", "tier": 2, "laaa": False},
 ]
 
 # On-Market Comps
@@ -509,7 +509,7 @@ ON_MARKET_NARRATIVE = "No directly comparable active listings were identified in
 # P1: Anchor to Tier 1 weighted average. P2: Most recent data + confidence. P3 (optional): Limitations.
 PRICING_RATIONALE = """<p>Our suggested list price of $1.4M ($280K/unit) is anchored by two primary comparables - 14622 Gilmore St ($342K/unit, 2009 vintage, closest age match) and 11218 Oxnard St ($333K/unit, closest location match) - which, after adjustments for vintage, size, and location, indicate a Tier 1 weighted average of $336K/unit. The subject at $280K/unit reflects a 17% discount to this anchor, driven by the elevated LADWP utility profile and the missing Certificate of Occupancy, both of which create buyer friction that is appropriately reflected in pricing.</p>
 
-<p>The most recent transaction, 14121 Friar St (December 2025, $293K/unit at a 6.33% cap), provides the freshest indicator of current market conditions. Based on 5 comparable sales spanning August 2024 to December 2025, with 2 primary comps requiring minimal adjustment, we have MODERATE confidence in this value range. The trade range of $1.3M-$1.5M ($260K-$300K/unit) reflects the range of plausible outcomes depending on buyer tolerance for the CofO and utility issues.</p>"""
+<p>The most recent transaction, 14121 Friar St (December 2025, $293K/unit at a 6.33% cap), provides the freshest indicator of current market conditions. Based on 5 comparable sales spanning October 2024 to December 2025, with 2 primary comps requiring minimal adjustment, we have MODERATE confidence in this value range. The trade range of $1.3M-$1.5M ($260K-$300K/unit) reflects the range of plausible outcomes depending on buyer tolerance for the CofO and utility issues.</p>"""
 
 # Comp analysis confidence level — from COMP_ANALYSIS_PROTOCOL.md
 # "HIGH", "MODERATE", or "LOW" — displayed as badge in pricing section

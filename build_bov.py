@@ -392,7 +392,7 @@ SALE_COMPS = [
     {"num": 2, "addr": "11218 Oxnard St, N Hollywood", "units": 6, "yr": 1985, "sf": 4152, "price": 2000000, "ppu": 333333, "psf": 482, "cap": 5.80, "grm": 11.73, "date": "09/2025", "dom": 58, "notes": "Remodeled, closest location", "tier": 1, "laaa": False},
     {"num": 3, "addr": "14243 Victory Blvd, Van Nuys", "units": 5, "yr": 2022, "sf": 5888, "price": 2665000, "ppu": 533000, "psf": 453, "cap": 5.16, "grm": 13.80, "date": "10/2024", "dom": 17, "notes": "New construction premium", "tier": 2, "laaa": False},
     {"num": 4, "addr": "14121 Friar St, Van Nuys", "units": 7, "yr": 1998, "sf": 6526, "price": 2050000, "ppu": 292857, "psf": 314, "cap": 6.33, "grm": 11.30, "date": "12/2025", "dom": 120, "notes": "Motivated seller", "tier": 2, "laaa": False},
-    {"num": 5, "addr": "8425 Glenoaks Blvd, Sun Valley", "units": 8, "yr": 2003, "sf": 6508, "price": 1950000, "ppu": 243750, "psf": 300, "cap": 4.98, "grm": 12.42, "date": "08/2025", "dom": 23, "notes": "Mixed RSO", "tier": 2, "laaa": False},
+    {"num": 5, "addr": "8425 Glenoaks Blvd, Sun Valley", "units": 8, "yr": 2003, "sf": 6508, "price": 1950000, "ppu": 243750, "psf": 300, "cap": 4.98, "grm": 12.42, "date": "08/2025", "dom": 23, "notes": "AB 1482, 2003 vintage", "tier": 2, "laaa": False},
 ]
 
 # On-Market Comps
@@ -482,7 +482,7 @@ BUYER_TYPES = [
     ("Owner-Operators", "Hands-on investors comfortable managing a 5-unit building directly, capturing the 4% management fee as additional return"),
 ]
 BUYER_OBJECTIONS = [
-    ("Why is there no Certificate of Occupancy on file?", "The building was constructed in 2005 with all permits finaled on 8/31/2005. The absence of a CofO in LADBS records appears to be an administrative gap rather than a compliance issue. Buyers should budget for a formal clearance letter or retroactive CofO during due diligence, typically $5K-$15K."),
+    ("Why is there no Certificate of Occupancy on file?", "The building was constructed in 2005 with all permits finaled on 8/31/2005. The absence of a CofO in LADBS records has not been independently verified by the listing team. Buyers should confirm status with LADBS and budget for a formal clearance letter or retroactive CofO during due diligence, typically $5K-$15K."),
     ("What explains the high utility expenses?", "The $10,000 normalized water/sewer/trash figure reflects bundled LADWP billing for a 5-unit building in Los Angeles. All units are individually metered for electric; gas and water are master metered. The normalized figure is defensible based on comparable buildings in the submarket."),
     ("Is AB 1482 a concern for rent growth?", "AB 1482 caps annual increases at CPI + 5% (max 10%) for existing tenants, but imposes no limit on rent resets at turnover. Given the 36% loss-to-lease on the 3BR units, the primary upside comes from turnover events, which are uncapped under AB 1482."),
     ("What is the ADU potential?", "Current RD1.5-1 zoning and California state law permit one ADU and one JADU, potentially increasing the unit count from 5 to 7. TOC Tier 2 designation provides additional density bonus options for qualifying projects."),
@@ -500,7 +500,7 @@ COMP_NARRATIVES = """<p class="narrative"><strong>14622 Gilmore St, Van Nuys</st
 
 <p class="narrative"><strong>14121 Friar St, Van Nuys</strong> - 7 units, 1998, sold December 2025 at $2,050,000 ($292,857/unit) at a 6.33% verified cap rate after 120 days on market. Friar reflects motivated-seller pricing with concessions. Adjusted to $287K/unit, it establishes a conservative value floor.</p>
 
-<p class="narrative"><strong>8425 Glenoaks Blvd, Sun Valley</strong> - 8 units, 2003, mixed RSO, sold August 2025 at $1,950,000 ($243,750/unit). After a 15% upward adjustment for RSO-to-non-RSO conversion and size differential, the implied value is $280K/unit - closely aligned with the subject's list price.</p>"""
+<p class="narrative"><strong>8425 Glenoaks Blvd, Sun Valley</strong> - 8 units, 2003, AB 1482, sold August 2025 at $1,950,000 ($243,750/unit). After adjusting upward 10% for the smaller subject size and newer 2005 vintage, the implied value is $268K/unit. This comp supports the subject's pricing near $280K/unit.</p>"""
 
 # On-Market Narrative (~150 words)
 ON_MARKET_NARRATIVE = "No directly comparable active listings were identified in the immediate submarket. Limited on-market inventory reflects a supply-constrained environment that supports the subject's pricing."
